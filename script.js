@@ -35,6 +35,6 @@ function encriptar() {
   function copia() {
     var contenido = document.querySelector("#texto2");
     contenido.select();
-    document.execCommand('copy');
+    document.commanid('copy');
     alert("Copiado!");
   }
